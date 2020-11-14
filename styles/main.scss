@@ -1,4 +1,33 @@
-body{
-    background-color: red;
-    font-size: large;
-}
+    .header-contain{
+        max-width: 1640px;
+        margin: 50px auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar{
+        display: flex;
+        ul{
+            display: flex;
+            margin-right: 50px;
+            li{
+                margin-right: 50px;
+            }
+            a{
+                text-decoration: none;
+                color: inherit;
+                font-size: 20px;
+                line-height: 30px;
+            }
+        }
+    }
+    .main-page{
+        max-width: 1640px;
+        margin: 50px auto;
+        h2{
+            font-size: 30px;
+            color: #707070;
+        }
+        .popular{
+            display: flex;
+        }
+    }
